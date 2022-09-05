@@ -32,12 +32,12 @@ struct Movie: Codable {
     }
     
     func dateFormatter() -> String {
-        let date = releaseDate
         let dateFormatter = DateFormatter()
-        dateFormatter.date(from: date)
-        dateFormatter.dateFormat = "dd.MM.yy"
-        dateFormatter.date(from: date)
-        return date
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let date = dateFormatter.date(from: self.releaseDate)
+        dateFormatter.dateFormat = "dd.MM.yyyy"
+        let result = dateFormatter.string(from: date!)
+        return result
     }
     
     
