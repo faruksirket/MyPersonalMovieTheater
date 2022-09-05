@@ -334,7 +334,7 @@
                     <size key="freeformSize" width="414" height="800"/>
                     <connections>
                         <outlet property="imdbImage" destination="8eB-iM-TPr" id="kXS-rC-BSw"/>
-                        <outlet property="movieImg" destination="8eB-iM-TPr" id="2Es-D5-xxQ"/>
+                        <outlet property="movieImg" destination="buw-HA-ugb" id="cnS-Zw-LzA"/>
                         <outlet property="movieOverview" destination="VaV-i1-dCX" id="E4V-kg-FGy"/>
                         <outlet property="movieTitle" destination="8rO-8c-3pg" id="03d-4b-t91"/>
                         <outlet property="starRating" destination="mU8-sC-SN7" id="A8u-gk-F3H"/>
